@@ -1,5 +1,6 @@
 body {
-    background-image: url(/beads.jpg);
+    background-image: url(/images);
     background-repeat: no-repeat;
     color: thistle;
+    background-size: cover;
 }
