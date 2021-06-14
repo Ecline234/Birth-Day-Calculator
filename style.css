@@ -1,8 +1,8 @@
 body {
-    background-image: url(/blackbeads.jpg);
+    background-image: url(/image/blackbeads.jpg);
     background-repeat: no-repeat;
-    color: thistle;
-    background-size: 85%;
+    background-color: rgb(5, 106, 161,);
+    background-size: cover;
 }
 /* #p1 {
     color: rgb(240,181,68);
