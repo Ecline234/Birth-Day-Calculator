@@ -20,9 +20,12 @@ A web application that takes a user's birthday and calculates the day of the wee
 
 There are no bugs.
 
-Technologies Used:
+### Technologies Used:
 
-* Html, * Css, Bootstrap, Javascript.
+* Html, 
+* Css,
+* Bootstrap,
+* Javascript.
 
 ### Support and contact details
 Email Address:eclinejerutokoech@gmail.com
