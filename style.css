@@ -4,11 +4,7 @@ body {
     background-color: rgb(5, 106, 161,);
     background-size: cover;
 }
-/* #p1 {
-    color: rgb(240,181,68);
-    font-size: bold; */
-}
-form{
+.col-sm-2{
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 10px;
