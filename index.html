@@ -9,115 +9,64 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container" style="color: rgb(5,106,161);">
-        <div class="row">
-            <h1>Akan Name</h1>
-          <div class="col-sm-4">Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
-            <div class="col">
-                <h2>Here are Ghanian day names:</h2> 
-                <p>Male
-                 Sunday: Kwasi
-                 
-                 Monday: Kwadwo
-                 
-                 Tuesday: Kwabena
-                 
-                 Wednesday: Kwaku
-                 
-                 Thursday:  Yaw
-                 
-                 Friday: Kofi
-                 
-                 Saturday: Kwame
-                </p>
-                <p>
-                  Female <br>
-                 Sunday: Akosua <br>
-                 
-                 Monday: Adwoa
-                 
-                 Tuesday: Abenaa
-                 
-                 Wednesday: Akua
-                 
-                 Thursday:  Yaa
-                 
-                 Friday: Afua
-                 
-                 Saturday: Ama
+  <div class="container" style="color: rgb(13,124,163);">
+    <div class="row">
+      <div class="col">
+        <h1>Akan Name</h1>
+        <p>
+          Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their <br> first name as a 'day name' which corresponds <br> to the day in the week they were born.
+        </p> 
+        <div class="col" id="p1">
+          <p>
+              Want to know you Akan name? <br>
+              Fill in the form below:
+          </p>
+          <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Male
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Female
+              </label>
+            </div>
+      </div>
+      
+      </div>
+      <div class="col-sm-8">
+        <h2>Here are Ghanian day names:</h2> 
+        <div class="container">
+          <div class="row">
+            <div class="col-6"> 
+              <h4>Male:</h4>
+              <p> 
+              Sunday: Kwasi <br> Monday: Kwadwo <br> Tuesday: Kwabena <br> Wednesday: Kwaku <br>Thursday:  Yaw <br> Friday: Kofi <br>Saturday: Kwame
+            </p>
+            </div>
+            <div class="col-6"> 
+              <h4>Female:</h4>
+              <p>
+             Sunday: Akosua <br> Monday: Adwoa <br>Tuesday: Abenaa <br> Wednesday: Akua <br>Thursday:  Yaa <br>Friday: Afua <br>Saturday: Ama
              </p>
+            </div>
           </div>
-          <div class="col-sm-4" id="p1">
-                <p>
-                    Want to know you Akan name? <br>
-                    Fill in the form below:
-                </p>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                      Male
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                    <label class="form-check-label" for="flexRadioDefault2">
-                      Female
-                    </label>
-                  </div>
-                  
-
-                
-                
-               
-                  </div>
-                </div>
-            
-            </div> <br>
-
-            <div class="col-sm-2">
-                <form action="">
-                    <label for="date">Year:</label>
-                    <input type="number">
-                    <label for="month">Month:</label>
-                    <input type="number">
-                    <label for="day">Date:</label>
-                    <input type="number">
-                </form>
-            </div>
-            
-            <div class="col-sm-2"> 
-               
-            </div>
-
-            
-            
-            <!-- <div class="row mb-3">
-                <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Year:</label>
-                <div class="col-sm-2">
-                  <input type="date" class="form-control form-control-sm" id="colFormLabelSm" placeholder="col-form-label-sm">
-                </div>
-              </div>
-              <div class="row mb-3">
-                <label for="colFormLabel" class="col-sm-2 col-form-label">Month:</label>
-                <div class="col-sm-2">
-                  <input type="month" class="form-control" id="colFormLabel" placeholder="col-form-label">
-                </div>
-              </div>
-              <div class="row">
-                <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-lg">Day:</label>
-                <div class="col-sm-2">
-                  <input type="date" class="form-control form-control-lg" id="colFormLabelLg" placeholder="col-form-label-lg">
-                </div>
-            </div>
-            <div class="col-auto">
-                <button onclick="yourAkanName" type="submit" class="btn btn-primary">Submit</button>
-            </div> -->
         </div>
+      </div>
     </div>
-       
     
-    
-
+   <div class="col-sm-2">
+    <form action="">
+        <label for="date">Year:</label>
+        <input type="number">
+        <label for="month">Month:</label>
+        <input type="number">
+        <label for="day">Date:</label>
+        <input type="number">
+    </form>
+</div>
 
     <script src="script.js"></script>
 </body>
