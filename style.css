@@ -1,8 +1,9 @@
 body {
     background-image: url(/image/blackbeads.jpg);
     background-repeat: no-repeat;
-    background-color: rgb(5, 106, 161,);
+    /* background-color: rgb(5, 106, 161,); */
     background-size: cover;
+    color: black;
 }
 /* .col-sm-2{
     padding-top: 10px;
