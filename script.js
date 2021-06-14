@@ -2,17 +2,17 @@
 // get month of birt from form
 // get day of birth from form
 // get akan name
-function dayName(birthday) {
-    if (month <= 12) { proceed);
+// function dayName(birthday) {
+//     if (month <= 12) { proceed);
         
-    } else (month >12) {
-        reject submission
-    }
-}
+//     } else (month >12) {
+//         reject submission
+//     }
+// }
 
-var daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday',];
-var maleNames = ["Kwasi", "Kwadwo",  "Kwabena", "Kwaku", "Yaw", "Kofi",  "Kwame",];
-var femaleNames = ["Akosua", " Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama",];
+// var daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday',];
+// var maleNames = ["Kwasi", "Kwadwo",  "Kwabena", "Kwaku", "Yaw", "Kofi",  "Kwame",];
+// var femaleNames = ["Akosua", " Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama",];
 
 
 
