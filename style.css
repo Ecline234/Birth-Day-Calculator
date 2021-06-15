@@ -15,3 +15,18 @@ body {
     box-shadow: 20px 20px 5px rgb(5, 106, 161,);
     padding: 8px;
 } */
+@media screen and (min-width: 480px) {
+    body {
+        background-color: turquoise;
+        color: white;
+    }
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
