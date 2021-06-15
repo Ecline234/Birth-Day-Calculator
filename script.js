@@ -3,9 +3,9 @@
 // get akan name
 function dayName() {
    var birthYear = parseInt(document.getElementById("birthYear").value);
-   if(birthYear.length !== 3) {
-       alert("Year characters more than 4");
-   }
+//    if(birthYear.length !== 3) {
+//        alert("Year characters more than 3");
+//    }
 
    
     // get month of birt from form
